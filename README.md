@@ -6,6 +6,13 @@ In terminal:
 To compile: chmod u+x calc.sh
 To run: ./calc.sh
 
+At the "Operand" prompt, the user can enter: Any digit, MR, MC, Clear (C), Off (X)
+﻿﻿At the "Operator" prompt, the user can enter: +, -, *, /, MS, M+, MC, Clear (C), Off (X)
+﻿﻿At both prompts (treat as operand or operator): MC, Clear (C), Off (X)
+## ﻿﻿Error checking
+For the operand, assume valid input (no error checking). 
+For the operator, there is error checking for an invalid operator. A brief informative message will be displayed to re-ask the user for input.
+
 ## Commands
 <table>
 <thead>
